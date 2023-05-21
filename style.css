@@ -58,12 +58,17 @@ body {
     font-family: Montserrat;  /*jak dostanu? ve složce mám*/
     display: block;  
   }
+ .odkazy li {
+  display: inline-block;
+  text-decoration: none;
+}
+
 .odkazy a{
     font-family: Montserrat;
     color: white;
     padding: 10px;
         text-decoration: none;
-        text-align:  center;
+       display: flex;
    }
    .portfolio{ 
     text-align:  center;
@@ -80,3 +85,8 @@ body {
        .twitter  a:focus {
          background-color: #1da1f2;
        }
+
+.odkazy{
+    display: flex;
+}
+
