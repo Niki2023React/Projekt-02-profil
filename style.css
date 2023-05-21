@@ -17,5 +17,66 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
-}
+  }
 
+.vizitka{
+  background-color: #31363b;
+  position: relative;
+  margin: 0;
+  padding-bottom: 20px;
+   box-shadow: 7px 7px 7px 7px   rgb(139, 143, 146)
+ 
+}
+.logo{
+  display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 30px;
+	/*font-size: 14px;
+	font-weight: bold;
+	text-align: center;*/
+	background-color: #b92e81;
+	color: white;
+	border-radius: 50%;
+  position: fixed;   /*vůči obrázku??*/
+  right: 30px;
+  top: 300px;
+}
+.foto{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  }
+  .obsah{
+    font-family: Source Sans Pro;
+    color: white;
+    margin: 20px;
+   }
+
+  .jmeno{
+    font-family: Montserrat;  /*jak dostanu? ve složce mám*/
+    display: block;  
+  }
+.odkazy a{
+    font-family: Montserrat;
+    color: white;
+    padding: 10px;
+        text-decoration: none;
+        text-align:  center;
+   }
+   .portfolio{ 
+    text-align:  center;
+       }
+       .portfolio a:hover,
+       portfolio a:focus{ 
+       background-color: #e74c3c;
+      }
+       .facebook a:hover,
+       .facebook  a:focus {
+         background-color: #3b5998;
+       }
+       .twitter a:hover,
+       .twitter  a:focus {
+         background-color: #1da1f2;
+       }
